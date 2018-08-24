@@ -13,17 +13,6 @@
 
   <meta name="theme-color" content="#445BA1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script>
-    // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
-    (function(){
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
 <link rel="stylesheet" href="styles.6d21b634243a6f8321e6.css"></head>
 <body>
   <app-root></app-root>
